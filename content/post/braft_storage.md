@@ -1,17 +1,14 @@
 ---
 title: "Braft的日志存储引擎实现分析"
-date: 2018-10-07T18:43:53+08:00
-draft: false 
+date: 2018-10-07T18:37:51+08:00
+draft: false
 tags: [
     "storage",
-    "raft",
 ]
 categories: [
     "storage",
-    "raft",
 ]
 ---
-
 ## 1.架构设计
 ### 1.1 函数接口说明
 日志存储引擎是用于存储raft lib产生的日志。提供的接口如下：
